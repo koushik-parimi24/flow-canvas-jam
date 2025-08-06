@@ -1,7 +1,8 @@
-// Import the plugin directly from the Eleventy package
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+// This file now uses the recommended async/import syntax
+module.exports = async function(eleventyConfig) {
+  // Dynamically import the Eleventy HTML Base Plugin
+  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
 
-module.exports = function(eleventyConfig) {
   // This line tells Eleventy to copy the "css" folder
   eleventyConfig.addPassthroughCopy("css");
 
