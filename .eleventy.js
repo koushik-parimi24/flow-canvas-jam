@@ -10,6 +10,9 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   return {
+    // THIS IS THE FIX: Add your repository name here
+    pathPrefix: "/flow-canvas-jam/",
+
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
   };
