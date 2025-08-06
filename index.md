@@ -11,7 +11,7 @@ layout: base.njk
         <div class="carousel-caption text-center">
           <h1 class="display-3 fw-bold">Crafting Digital Experiences</h1>
           <p class="lead">From backend logic to frontend beauty — we do it all.</p>
-          <a href="contact.html" class="btn btn-light btn-lg mt-3">Let’s Build Together</a>
+          <a href="/contact/" class="btn btn-light btn-lg mt-3">Let’s Build Together</a>
         </div>
       </div>
       <div class="carousel-item h-100">
@@ -19,7 +19,7 @@ layout: base.njk
         <div class="carousel-caption text-center">
           <h1 class="display-3 fw-bold">Responsive & Intuitive</h1>
           <p class="lead">Designs that look perfect across all devices.</p>
-          <a href="about.html" class="btn btn-light btn-lg mt-3">Learn More</a>
+          <a href="/about/" class="btn btn-light btn-lg mt-3">Learn More</a>
         </div>
       </div>
       <div class="carousel-item h-100">
@@ -27,7 +27,7 @@ layout: base.njk
         <div class="carousel-caption text-center">
           <h1 class="display-3 fw-bold">Secure & Scalable</h1>
           <p class="lead">Built for performance, security, and cloud scale.</p>
-          <a href="demo.html" class="btn btn-light btn-lg mt-3">Book a Demo</a>
+          <a href="/demo/" class="btn btn-light btn-lg mt-3">Book a Demo</a>
         </div>
       </div>
     </div>
@@ -39,7 +39,6 @@ layout: base.njk
     </button>
   </div>
 </section>
-
 <main class="container">
     <section class="my-5 py-5">
         <div class="text-center mb-5 fade-in-up">
